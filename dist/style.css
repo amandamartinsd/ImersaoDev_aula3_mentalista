@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 600px;
+    background-image: url('https://shopfacil.vteximg.com.br/arquivos/ids/2391290/imagem1.jpg?v=635999424585530000');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+
+  h2 {
+    background-color: green;
+    position: absolute;
+    font-size:20px;
+    font-weight:bold;
+    top: 150px;
+    width: 300px;
+    height: 200px
+    text-align:center;
+    left: 40%;
+  }
+  
+  h3{
+    background-color: red;
+    color: white;
+    position: absolute;
+    font-size:20px;
+    font-weight:bold;
+    top: 150px;
+    width: 300px;
+    height: 200px
+    text-align:center;
+    left: 35%;
+  }
+  
+    footer{
+        padding: 0%;
+        margin: 2%;
+        font-size: small;
+        color: white;
+        height: 2px;
+    }
+  
+    footer a{
+    text-decoration: none;
+    color: white;
+    }
+
+    footer a:hover{
+    color: yellow;
+    }
+
+  @media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+  }
